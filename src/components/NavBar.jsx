@@ -62,13 +62,13 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/anandhu-r-s-5ab6a7135/">
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="img" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
+              <a href="#ccfb">
+                <img src={navIcon2} alt="img" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://www.instagram.com/mr_short_body/">
+                <img src={navIcon3} alt="img" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}>

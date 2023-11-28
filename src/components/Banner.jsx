@@ -10,7 +10,7 @@ export const Banner = () => {
  const [loopNum,setLoopNum] = useState(0);
  const [isDeleting , setDeleting] = useState(false);
  const [text, setText]=useState('');
- const toRotate = ['web Developer','Web Designer','UI/UX Designer'];
+ const toRotate = ['MERN Stack Developer'];
  const [delta,setDelta]= useState(300 - Math.random() * 100);
  const period = 2000;
 
@@ -21,6 +21,7 @@ export const Banner = () => {
 
     return()=>{clearInterval(ticker)}
 
+ // eslint-disable-next-line react-hooks/exhaustive-deps
  },[text])
 
  const tick =( ) =>{
