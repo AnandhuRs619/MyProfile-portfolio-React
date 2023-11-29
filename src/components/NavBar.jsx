@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/myLogo-removebg-preview.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon2 from '../assets/img/github-mark-white.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
@@ -45,35 +45,44 @@ export const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#Skills"
+              href="#skills"
               className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink('skills')}
             >
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#Projects"
+              href="#projects"
               className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink('projects')}
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+        href="#Resume"
+        className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
+        onClick={() => onUpdateActiveLink('resume')}
+        style={{ color: activeLink === 'resume' ? 'red' : 'inherit' }}
+      >
+        Resume
+      </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/anandhu-r-s-5ab6a7135/">
                 <img src={navIcon1} alt="img" />
               </a>
-              <a href="#ccfb">
+              <a href="https://github.com/AnandhuRs619">
                 <img src={navIcon2} alt="img" />
               </a>
               <a href="https://www.instagram.com/mr_short_body/">
                 <img src={navIcon3} alt="img" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}>
+             <a href="#connect"><button className="vvd" onClick={() => console.log('connect')}>
               <span>Let's Connect</span>
             </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

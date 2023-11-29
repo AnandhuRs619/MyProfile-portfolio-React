@@ -49,11 +49,12 @@ export const Banner = () => {
         <Row className='align-items-center'>
             <Col xs={12} md={6} xl ={7} >
                 <span className='tagline'>Welcome to my portfolio </span>
-                <h1>{`Hi i'm Anandhu R S `} <span className='wrap' >{text}</span> </h1>
-                <p> am an InfoSec enthusiast with profound 
-                knowledge in fundamental networking and 
-                security maneuvers which can be crucial for an enterprise.</p>
-                <button onClick={()=> console.log('connect')} >Let's connect <ArrowRightCircle size={25} /> </button>
+                <h1>{`Hi i'm Anandhu R S `} <br /> <span className='wrap' >{text}</span> </h1>
+                <p> A self-taught individual with strong multitasking abilities and a dedicated work ethic. Possesses
+effective teamwork, problem-solving and organizational skills. Willing to take on various
+responsibilities to support the team and known for being a reliable and committed collaborator with a
+diligent and resourceful approach.</p>
+                <a href="#connect"><button onClick={()=> console.log('connect')} >Let's connect <ArrowRightCircle size={25} /> </button></a>
             </Col>
             <Col xs={12} md={6} xl={5} >
                 <img src={headerImg} alt="Headder IMG" />
