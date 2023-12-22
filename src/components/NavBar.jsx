@@ -29,7 +29,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="home">
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -38,28 +38,28 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
-              href="#home"
+              href="home"
               className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink('home')}
             >
               Home
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="skills"
               className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink('skills')}
             >
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#projects"
+              href="projects"
               className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink('projects')}
             >
               Projects
             </Nav.Link>
             <Nav.Link
-        href="#Resume"
+        href="https://drive.google.com/file/d/1s85QVfKmgDIWYgeo1zbt-L3r0-edgNRk/view"
         className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
         onClick={() => onUpdateActiveLink('resume')}
         style={{ color: activeLink === 'resume' ? 'red' : 'inherit' }}
