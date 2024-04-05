@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailChip } from "./MailChip";
+// import { MailChip } from "./MailChip";
 import logo from "../assets/img/myLogo-removebg-preview.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github-mark-white.png";
@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailChip />
+          {/* <MailChip /> */}
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
