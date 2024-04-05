@@ -59,7 +59,7 @@ export const NavBar = () => {
               Projects
             </Nav.Link>
             <Nav.Link
-        href="https://drive.google.com/file/d/1s85QVfKmgDIWYgeo1zbt-L3r0-edgNRk/view"
+        href="https://drive.google.com/file/d/1MFdZ089b9WWi63AMel2ouTNdTfnyi517/view?usp=sharing"
         className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
         onClick={() => onUpdateActiveLink('resume')}
         style={{ color: activeLink === 'resume' ? 'red' : 'inherit' }}
