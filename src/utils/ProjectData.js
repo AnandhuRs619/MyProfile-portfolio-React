@@ -7,15 +7,31 @@ import projImg6 from '../assets/img/ARS-info.png';
 import projImg7 from '../assets/img/Inventory Management System.png';
 import projImg8 from '../assets/img/User Management.png';
 import projImg9 from '../assets/img/Black Link.png';
+import projImg10 from '../assets/img/AquaSwims.png';
+import projImg11 from '../assets/img/3D app.png';
 
 
   const projects = [
+    {
+      title: 'Aquaswims',
+      description: 'Design & Development in Next js',
+      imgUrl: projImg10,
+      liveUrl: 'https://aquaswims.vercel.app/',
+      GitUrl: 'https://github.com/AnandhuRs619/aquaswims',
+    },
     {
       title: 'Black Link - socialMedia-app',
       description: 'Design & Development in MERN Stack',
       imgUrl: projImg9,
       liveUrl: '#projects',
       GitUrl: 'https://github.com/AnandhuRs619/socialMedia-app',
+    },
+    {
+      title: '3D Modal App',
+      description: 'Design & Development in MERN Stack',
+      imgUrl: projImg11,
+      liveUrl: 'https://3-dmodels-viewer-app.vercel.app/',
+      GitUrl: 'https://github.com/AnandhuRs619/3Dmodels-viewer-app',
     },
     {
       title: 'Electroz.Shop',

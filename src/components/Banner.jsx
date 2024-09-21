@@ -46,24 +46,19 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my portfolio </span>
+        <Row className="align-items-center ">
+          <Col className="cursor-scale" xs={12} md={6} xl={7}>
+            <span className="tagline ">Welcome to my portfolio </span>
             <h1>
               {`Hi i'm Anandhu R S `} <br />{" "}
-              <span className="wrap">{text}</span>{" "}
+              <span className="wrap text-red-600">{text}</span>{" "}
             </h1>
-            <p>
+            <p className="text-lg font-semibold">
               {" "}
-              A self-taught individual with strong multitasking abilities and a
-              dedicated work ethic. Possesses effective teamwork,
-              problem-solving and organizational skills. Willing to take on
-              various responsibilities to support the team and known for being a
-              reliable and committed collaborator with a diligent and
-              resourceful approach.
+              Specialized in javascript, MongoDB, ExpressJs, ReactJs, NextJs, NodeJs
             </p>
-            <a href="#connect">
-              <button onClick={() => console.log("connect")}>
+            <a href="#connect" className="no-underline">
+              <button  onClick={() => console.log("connect")}>
                 Let's connect <ArrowRightCircle size={25} />{" "}
               </button>
             </a>

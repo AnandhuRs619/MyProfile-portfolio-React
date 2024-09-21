@@ -20,8 +20,8 @@ export const Project = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
-            <p>Projects description in here </p>
+            <h2 className='cursor-scale'>Projects</h2>
+            <p className='cursor-scale'>Projects description in here </p>
             <Tab.Container id='project-tabs' defaultActiveKey='tab-1'>
               <Nav variant='pills' className='nav-pills mb-5 justify-content-center align-item-center' id='pills-tab'>
                 {groupedProjects.map((group, index) => (

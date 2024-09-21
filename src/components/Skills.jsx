@@ -31,10 +31,10 @@ export const Skills = () => {
                 <Row>
                     <Col>
                      <div className="skill-bx" >
-                        <h2>
+                        <h2 className="cursor-scale">
                             Skills
                         </h2>
-                         <p>I am a versatile full-stack developer skilled in MongoDB, MySQL, Express.js, Node.js, TypeScript, and React.js with Redux. Proficient in crafting efficient server applications and dynamic user interfaces, I leverage Sass and Bootstrap for clean and responsive design. My expertise extends to data structures, algorithms, and core web technologies, making me well-suited for diverse development projects.<br /></p>
+                         <p className="cursor-scale">I am a versatile full-stack developer skilled in MongoDB, MySQL, Express.js, Node.js, TypeScript, and React.js with Redux. Proficient in crafting efficient server applications and dynamic user interfaces, I leverage Sass and Bootstrap for clean and responsive design. My expertise extends to data structures, algorithms, and core web technologies, making me well-suited for diverse development projects.<br /></p>
                          <Carousel responsive={responsive} infinite= {true} className="skill-slider" >
                             <div className="items">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"alt="img"  />

@@ -1,4 +1,16 @@
 /************ Custom Font ************/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -16,6 +28,32 @@
 }
 
 /************ Default Css ************/
+/* Gsap animation */
+
+.cursor{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid #16a085;
+  transition: transform .3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.grow, .grow-small{
+  transform: scale(5);
+  background: #fff;
+  mix-blend-mode: difference;
+  border: none;
+}
+.grow-small{
+  transform: scale(2.5);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +86,7 @@ p, a, li, button, ul {
   line-height: normal;
   text-decoration: none;
 }
+
 
 a:hover {
   text-decoration: none;
