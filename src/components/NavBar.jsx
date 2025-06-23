@@ -59,6 +59,13 @@ export const NavBar = () => {
               Skills
             </Nav.Link>
             <Nav.Link
+              href="#experience"
+              className={`navbar-link cursor-scale small ${activeLink === "experience" ? "active" : ""}`}
+              onClick={() => onUpdateActiveLink("experience")}
+            >
+              Experience
+            </Nav.Link>
+            <Nav.Link
               href="#projects"
               className={`navbar-link cursor-scale small ${activeLink === "projects" ? "active" : ""}`}
               onClick={() => onUpdateActiveLink("projects")}

@@ -1,4 +1,3 @@
-
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
@@ -9,6 +8,7 @@ import { Contact } from './components/contact';
 import { Footer } from './components/Footer';
 import About from './components/about';
 import Cursor from './components/Cursor';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -18,9 +18,10 @@ function App() {
     <Banner/>
     <About/>
     <Skills />
+    <Experience/>
     <Project/>
     <Contact/>
-    <Footer />S    
+    <Footer />    
     </div>
   );
 }

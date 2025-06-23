@@ -341,7 +341,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 0 0 90px 0;
   position: relative;
 }
 .skill-bx {
@@ -657,4 +657,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/************ Experience Css ************/
+.experience {
+  padding: 96px 0;
+  position: relative;
+}
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+}
+.experience .exp-card {
+  border-radius: 24px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.25);
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.experience .exp-card:hover {
+  border-color: #16a085;
+  box-shadow: 0 8px 40px 0 rgba(22,160,133,0.15);
+}
+.experience .exp-role {
+  color: #16a085;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.experience .exp-period {
+  color: #B8B8B8;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.experience .exp-company {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.experience .exp-desc {
+  color: #B8B8B8;
+  margin-top: 0.75rem;
+  font-size: 1rem;
 }
