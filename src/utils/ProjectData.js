@@ -9,9 +9,17 @@ import projImg8 from '../assets/img/User Management.png';
 import projImg9 from '../assets/img/Black Link.png';
 import projImg10 from '../assets/img/AquaSwims.png';
 import projImg11 from '../assets/img/3D app.png';
+import projImg12 from '../assets/img/TESSUTO.png';
 
 
   const projects = [
+    {
+      title: 'TESSUTO',
+      description: 'Design & Development in Next js',
+      imgUrl: projImg12,
+      liveUrl: 'https://tessuto-userside.vercel.app/',
+      GitUrl: 'https://github.com/AnandhuRs619/Tessuto_userside',
+    },
     {
       title: 'Aquaswims',
       description: 'Design & Development in Next js',
