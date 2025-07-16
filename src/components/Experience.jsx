@@ -13,7 +13,7 @@ const experiences = [
   {
     role: 'MERN Stack Developer',
     company: 'Softsync Solutions PVT LTD',
-    period: 'Jan 2023 - Dec 2023',
+    period: 'Feb 2023 - March 2024',
     description: `Developed and maintained scalable web applications using the MERN stack (MongoDB, Express.js, React.js, and
 Node.js), ensuring a seamless user experience.`
   },
