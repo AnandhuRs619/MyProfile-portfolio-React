@@ -10,13 +10,13 @@ const experiences = [
     period: 'Aug 2024 - Present',
     description: 'Developed modern web applications using React.js, improved UI/UX, and collaborated with cross-functional teams.'
   },
-  {
-    role: 'MERN Stack Developer',
-    company: 'Softsync Solutions PVT LTD',
-    period: 'Feb 2023 - March 2024',
-    description: `Developed and maintained scalable web applications using the MERN stack (MongoDB, Express.js, React.js, and
-Node.js), ensuring a seamless user experience.`
-  },
+//   {
+//     role: 'MERN Stack Developer',
+//     company: 'Softsync Solutions PVT LTD',
+//     period: 'Feb 2023 - March 2024',
+//     description: `Developed and maintained scalable web applications using the MERN stack (MongoDB, Express.js, React.js, and
+// Node.js), ensuring a seamless user experience.`
+//   },
   {
     role: 'Web Developer ',
     company: 'Freelancer',
