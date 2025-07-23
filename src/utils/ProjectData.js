@@ -1,11 +1,11 @@
-import projImg1 from '../assets/img/netflix.png';
+// import projImg1 from '../assets/img/netflix.png';
 import projImg2 from '../assets/img/Electroz.png';
 import projImg3 from '../assets/img/Portfolio.png';
-import projImg4 from '../assets/img/TODO.png';
-import projImg5 from '../assets/img/Tesla.png';
+// import projImg4 from '../assets/img/TODO.png';
+// import projImg5 from '../assets/img/Tesla.png';
 import projImg6 from '../assets/img/ARS-info.png';
-import projImg7 from '../assets/img/Inventory Management System.png';
-import projImg8 from '../assets/img/User Management.png';
+// import projImg7 from '../assets/img/Inventory Management System.png';
+// import projImg8 from '../assets/img/User Management.png';
 import projImg9 from '../assets/img/Black Link.png';
 import projImg10 from '../assets/img/AquaSwims.png';
 import projImg11 from '../assets/img/3D app.png';
@@ -22,7 +22,7 @@ import projImg14 from '../assets/img/Project14.png';
       liveUrl: 'https://tessuto-userside.vercel.app/',
       GitUrl: 'https://github.com/AnandhuRs619/Tessuto_userside',
     },
-    
+
     {
       title: 'Sarvamsafety',
       description: 'Design & Development in Next js',
