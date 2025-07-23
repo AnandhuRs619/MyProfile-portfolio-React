@@ -10,6 +10,8 @@ import projImg9 from '../assets/img/Black Link.png';
 import projImg10 from '../assets/img/AquaSwims.png';
 import projImg11 from '../assets/img/3D app.png';
 import projImg12 from '../assets/img/TESSUTO.png';
+import projImg13 from '../assets/img/Project13.png';
+import projImg14 from '../assets/img/Project14.png';
 
 
   const projects = [
@@ -21,10 +23,26 @@ import projImg12 from '../assets/img/TESSUTO.png';
       GitUrl: 'https://github.com/AnandhuRs619/Tessuto_userside',
     },
     {
+      title: 'Sarvamsafety',
+      description: 'Design & Development in Next js',
+      imgUrl: projImg13,
+      liveUrl: 'https://https://www.sarvamsafety.com/',
+      GitUrl: '#projects',
+     
+    },
+    {
+      title: 'LIFTERS CLUB',
+      description: 'Design & Development in React js',
+      imgUrl:projImg14,
+      liveUrl: 'https://lifters-club-user.vercel.app/',
+      GitUrl: '#projects',
+
+    },
+    {
       title: 'Aquaswims',
       description: 'Design & Development in Next js',
       imgUrl: projImg10,
-      liveUrl: 'https://aquaswims.vercel.app/',
+      liveUrl: 'https://aquaswims.com/',
       GitUrl: 'https://github.com/AnandhuRs619/aquaswims',
     },
     {
@@ -48,27 +66,27 @@ import projImg12 from '../assets/img/TESSUTO.png';
       liveUrl: 'https://www.electroz.shop/',
       GitUrl: 'https://github.com/AnandhuRs619/Electroz',
     },
-    {
-      title: 'Automotive-Project',
-      description: 'Design & Development in MERN Stack',
-      imgUrl: projImg7,
-      liveUrl: '#projects',
-      GitUrl: 'https://github.com/AnandhuRs619/Automotive-Project',
-    },
-    {
-      title: 'NETFLIX-Clone',
-      description: 'Design & Development in React',
-      imgUrl: projImg1,
-      liveUrl: 'https://mynetflix-app-clone.netlify.app/',
-      GitUrl: 'https://github.com/AnandhuRs619/netfilx-clone',
-    },
-    {
-      title: 'User_Management_System',
-      description: 'Design & Development in MERN Stack',
-      imgUrl: projImg8,
-      liveUrl: '#projects',
-      GitUrl: 'https://github.com/AnandhuRs619/React_User_Management',
-    },
+    // {
+    //   title: 'Automotive-Project',
+    //   description: 'Design & Development in MERN Stack',
+    //   imgUrl: projImg7,
+    //   liveUrl: '#projects',
+    //   GitUrl: 'https://github.com/AnandhuRs619/Automotive-Project',
+    // },
+    // {
+    //   title: 'NETFLIX-Clone',
+    //   description: 'Design & Development in React',
+    //   imgUrl: projImg1,
+    //   liveUrl: 'https://mynetflix-app-clone.netlify.app/',
+    //   GitUrl: 'https://github.com/AnandhuRs619/netfilx-clone',
+    // },
+    // {
+    //   title: 'User_Management_System',
+    //   description: 'Design & Development in MERN Stack',
+    //   imgUrl: projImg8,
+    //   liveUrl: '#projects',
+    //   GitUrl: 'https://github.com/AnandhuRs619/React_User_Management',
+    // },
     {
       title: 'MY Portfolio',
       description: 'Design & Development',
@@ -76,20 +94,20 @@ import projImg12 from '../assets/img/TESSUTO.png';
       liveUrl: 'https://anandhursprofile.netlify.app/',
       GitUrl: 'https://github.com/AnandhuRs619/Personal-Website',
     },
-    {
-      title: 'Todo-APP',
-      description: 'Design & Development in React',
-      imgUrl: projImg4,
-      liveUrl: 'https://mytodo-appz.netlify.app/',
-      GitUrl: 'https://github.com/AnandhuRs619/React-Todo-App',
-    },
-    {
-      title: 'Tesla-clone',
-      description: 'Design & Development',
-      imgUrl: projImg5,
-      liveUrl: 'https://tesla-clone-0.netlify.app/',
-      GitUrl: 'https://github.com/AnandhuRs619/tesla',
-    },
+    // {
+    //   title: 'Todo-APP',
+    //   description: 'Design & Development in React',
+    //   imgUrl: projImg4,
+    //   liveUrl: 'https://mytodo-appz.netlify.app/',
+    //   GitUrl: 'https://github.com/AnandhuRs619/React-Todo-App',
+    // },
+    // {
+    //   title: 'Tesla-clone',
+    //   description: 'Design & Development',
+    //   imgUrl: projImg5,
+    //   liveUrl: 'https://tesla-clone-0.netlify.app/',
+    //   GitUrl: 'https://github.com/AnandhuRs619/tesla',
+    // },
     {
       title: 'ARS-INFOS',
       description: 'Design & Development',
