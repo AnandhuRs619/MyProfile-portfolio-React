@@ -36,7 +36,7 @@ import projImg15 from '../assets/img/project 15.png';
       title: 'LIFTERS CLUB',
       description: 'Design & Development in React js',
       imgUrl:projImg14,
-      liveUrl: 'https://lifters-club-user.vercel.app/',
+      liveUrl: 'https://liftersclub.ca',
       GitUrl: '#projects',
 
     },
