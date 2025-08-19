@@ -73,7 +73,7 @@ export const NavBar = () => {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1B5VrV81fjKcL9IW33mPUryesUrTM7LAg/view?usp=sharing"
+              href="https://drive.google.com/file/d/14OSOlcl0jAPt4N3GZUgY1QBEMr-RRHuz/view?usp=sharing"
               className={`navbar-link cursor-scale small ${activeLink === "resume" ? "active" : ""}`}
               onClick={() => onUpdateActiveLink("resume")}
               style={{ color: activeLink === "resume" ? "red" : "inherit" }}
