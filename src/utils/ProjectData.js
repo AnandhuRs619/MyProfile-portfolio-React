@@ -12,6 +12,7 @@ import projImg11 from '../assets/img/3D app.png';
 import projImg12 from '../assets/img/TESSUTO.png';
 import projImg13 from '../assets/img/Project13.png';
 import projImg14 from '../assets/img/Project14.png';
+import projImg15 from '../assets/img/project 15.png';
 
 
   const projects = [
@@ -27,7 +28,7 @@ import projImg14 from '../assets/img/Project14.png';
       title: 'Sarvamsafety',
       description: 'Design & Development in Next js',
       imgUrl: projImg13,
-      liveUrl: 'https://https://www.sarvamsafety.com/',
+      liveUrl: 'https://www.sarvamsafety.com/',
       GitUrl: '#projects',
      
     },
@@ -45,6 +46,13 @@ import projImg14 from '../assets/img/Project14.png';
       imgUrl: projImg10,
       liveUrl: 'https://aquaswims.com/',
       GitUrl: 'https://github.com/AnandhuRs619/aquaswims',
+    },
+    {
+      title: 'Ologytechschool',
+      description: 'Design & Development in Next js',
+      imgUrl: projImg15,
+      liveUrl: 'https://www.ologytechschool.com/',
+      GitUrl: '#projects',
     },
     {
       title: 'Black Link - socialMedia-app',
